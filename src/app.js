@@ -1,10 +1,3 @@
-
-const express = require('express');
-const app = express()
-
-
-// Your code goes here
-
 const express = require("express");
 const app = express();
 const Subscriber = require("./models/subscribers");
@@ -32,4 +25,3 @@ app.get("/subscribers/:id", (req, res) => {
 });
 
 module.exports = app;
-
